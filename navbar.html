@@ -116,27 +116,3 @@
     </body>
 </html>
 
-
-
-
-
-
-
-
-
-<! -- This allows me to have links to navigate to other sub-pages of my website
-So if I want people visiting my site to go to a section titled "About Me"
-I would put that here. This will reference the many .html files I create
-The stuff between the a's allows me to still be able to navigate to those sub-pages
-even if the name of them is changed in the urls.py file (called a reverse lookup)
-The If statement greys out the subpage links when you are on the specific subpage-->
-
-<!--
-div>
-    {% url 'public:index' as index_url %}
-    <span>{% if request.path == index_url %}Home{% else %}<a href = "{{ index_url }}">Home</a>{% endif %}</span>
-    {% url 'public:about' as about_url %}
-    <span>{% if request.path == about_url %}About{% else %}<a href = "{{ about_url }}">About</a>{% endif %}</span>
-    {% url 'public:contact' as contact_url %}
-    <span>{% if request.path == contact_url %}Contact{% else %}<a href = "{{ contact_url }}">Contact</a>{% endif %}</span>
-</div>-->
