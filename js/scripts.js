@@ -1,13 +1,3 @@
-/*!
-* Start Bootstrap - Freelancer v7.0.5 (https://startbootstrap.com/theme/freelancer)
-* Copyright 2013-2021 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-freelancer/blob/master/LICENSE)
-*/
-//
-// Scripts
-//
-
-
 
 // puts the active class on the element that is currently clicked
 var btns = document.getElementsByClassName("nav-link");
@@ -21,6 +11,7 @@ for (var i = 0; i < btns.length; i++) {
 }
 
 
+// bootstrap
 window.addEventListener('DOMContentLoaded', event => {
 
     // Navbar shrink function
